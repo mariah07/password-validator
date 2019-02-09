@@ -8,8 +8,8 @@ public class ValidatorTest {
 
     @Test
     public void validate() {
-        String password = "Tiapinto1*";
-        int result = 5;
+        String password = "okay*";
+        int result = 1;
 
         Validator validate = new Validator();
         int output = validate.Validate(password);

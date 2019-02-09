@@ -11,12 +11,6 @@ public class Validator {
             i++;
         if(!password.equalsIgnoreCase("password") )
             i++;
-        if(password.matches(".*\\d.*"))
-            i++;
-        if(!password.matches("[a-zA-Z0-9]*"))
-            i++;
-        if(password.matches(".*[A-Z].*"))
-            i++;
 
         return i;
     }
